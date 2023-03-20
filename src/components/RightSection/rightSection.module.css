@@ -1,0 +1,64 @@
+.rightSection {
+    margin-top: -19px;
+    padding: 0;
+
+}
+
+.topDiv {
+    background-color: #E8E8E8;
+    width: 73vw;
+    height: 13vh;
+
+}
+
+.middleDiv {
+    background-color: #F7ECDC;
+    width: 73vw;
+    height: 55vh;
+    border-radius: 0px 0px 0px 15px;
+
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.span {
+    width: 67vw;
+    margin-top: 17px;
+    margin-left: 20px;
+    
+}
+
+.middleDiv::-webkit-scrollbar {
+    display: none;
+}
+
+
+.lastDiv {
+    width: 73vw;
+    height: 23vh;
+    background: #E8E8E8;
+}
+
+.lastDiv textarea {
+    border: none;
+    width: 67vw;
+    margin-top: 17px;
+    margin-left: 20px;
+
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 9px;
+}
+
+.img {
+    background: url(../../assets/Vector-1.png);
+    width: 30px;
+    height: 30px;
+    margin-top: 16vh;
+}
+
+.formFlex {
+    display: flex;
+    gap: 26px;
+
+}

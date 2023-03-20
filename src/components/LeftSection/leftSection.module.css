@@ -1,0 +1,48 @@
+.leftSection {
+    background-color: #ffffff;
+    margin-left: 10px;
+}
+
+.leftSection h1 {
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.btn {
+    margin: 15px auto;
+    margin-left: 20px;
+    min-width: 300px;
+    min-height: 50px;
+    background: #000000;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 97.69%;
+    /* or 26px */
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+}
+
+.categoryWrapper {
+    height: 80vh;
+    max-width: 370px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.categoryWrapper::-webkit-scrollbar {
+    display: none;
+}
